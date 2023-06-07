@@ -19,7 +19,7 @@ You will implement the Command design pattern using interfaces in C#. You will b
 
 Follow these steps to complete the assignment:
 
-1. The RobotCommand interface has been created for you in the InterfaceCommand.cs file and define the `Run` method signature in it. This will replace the `RobotCommand` abstract class.
+1. The `RobotCommand` interface has been created for you in the InterfaceCommand.cs file and define the `Run` method signature in it. This will replace the `RobotCommand` abstract class.
 2. Recreate the existing command classes (`OffCommand`, `OnCommand`, `WestCommand`, `EastCommand`, `SouthCommand`, and `NorthCommand`) to implement the `IRobotCommand` interface instead of inheriting from the `RobotCommand` abstract class. Update their `Run` method implementations as necessary.
 3. Update the `Robot` class to use the `Assignment.InterfaceCommand` namespace in place of the `Assignment.AbstractCommand` namespace.
 4. **Complete the XML documentation within the `Robot` class**.
