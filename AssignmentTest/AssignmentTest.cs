@@ -1,5 +1,5 @@
 ﻿using Assignment;
-using Assignment.AbstractCommand; // Change to Assignment.InterfaceCommand when rdy
+using Assignment.InterfaceCommand; // Change to Assignment.InterfaceCommand when rdy
 
 namespace AssignmentTest
 {
@@ -88,5 +88,7 @@ namespace AssignmentTest
             testRobot.Run();
             Assert.AreEqual(testRobot.Y, 2);
         }
+
+        // Implement South & East Commands Tests (derivative of existing ones)
     }
 }
