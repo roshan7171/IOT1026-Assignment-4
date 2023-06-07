@@ -45,14 +45,11 @@ public class Robot
     /// <summary>
     /// 
     /// </summary>
-    /// <throws> </throws>
     public void Run()
     {
-        // Is this throw a good design choice? Can you think of any alternatives?
-        if (_commandsLoaded < _commands.Length) throw new InvalidOperationException("Not enough commands have been loaded!");
-        foreach (var command in _commands)
+        for (var i = 0; i < _commandsLoaded; ++i)
         {
-            command.Run(this);
+            _commands[i].Run(this);
             Console.WriteLine(this);
         }
     }
