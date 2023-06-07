@@ -34,3 +34,8 @@ public class NorthCommand : RobotCommand
 {
     public void Run(Robot robot) { if (robot.IsPowered) robot.Y++; }
 }
+
+// Implement remaining tests (easy & fast)
+// Write docs for Run & LoadCommand methids in Robot class (easyish and fast)
+// Write your own RobotCommand 
+// (Optional) If you have time you can write a RobotTester class as described instructions
