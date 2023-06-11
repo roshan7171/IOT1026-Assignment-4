@@ -13,7 +13,7 @@
 
 # IOT1026-Assignment-4
 
-Write a description of the project here and don't forget to update the badges.  
+The project is set of command classes related to controlling a robot.  
 
 [Assignment Instructions](docs/instructions.md)  
 [How to start coding](docs/how-to-use.md)  
